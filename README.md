@@ -1,23 +1,22 @@
-# Library-Management-System
-Library Management System
-Overview
-The Library Management System is a web-based application designed to manage library operations. It allows users to add, remove, and edit books, manage book issues and returns, and search for books. The system provides a user-friendly interface for both librarians and patrons, making it easier to handle library activities efficiently.
+# Library Management System
 
-Features
-Book Management: Add, remove, and edit book information, including titles, authors, and publication details.
-Issue and Return Management: Track issued books, manage returns, and view the status of borrowed items.
-Search Functionality: Search for books by title, author, or genre.
-User Management: Manage student and staff records for borrowing and returning books.
-Responsive Design: Optimized for use on desktops, tablets, and smartphones.
-Animations and Styling: Enhanced user experience with smooth animations and modern styling.
-Technologies Used
-Frontend Technologies:
+## Overview
+This project is a simple Library Management System built using Flask, a lightweight web framework for Python. It allows users to manage books and students, including functionalities for adding, removing, issuing, and returning books, as well as managing student records.
 
-HTML5: For structuring the content and layout of the web pages.
-CSS3: For styling and animations to enhance the visual appeal.
-JavaScript: For handling interactivity and user actions.
-Backend Technologies:
+## Table of Contents
+1. [How to Run the Project](#how-to-run-the-project)
+2. [Design Choices Made](#design-choices-made)
+3. [Assumptions and Limitations](#assumptions-and-limitations)
 
-Python: For server-side logic and handling database operations.
-Flask: A lightweight web framework for building the application.
-SQLite: For the database to store book and user information.
+## How to Run the Project
+
+### Prerequisites
+- Python 3.x
+- Flask
+- JSON files for data storage
+
+### Steps to Run
+1. **Clone the Repository**
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
